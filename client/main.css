@@ -1,0 +1,119 @@
+
+body{
+  font-family: 'Raleway', sans-serif;
+}
+#argument_draft{
+  overflow: hidden;
+  resize: none;
+}
+
+#argument_draft:focus{
+  outline:none;
+}
+
+.writemode_comment_encloser{
+  background-color:transparent;
+  color:transparent;
+  position:absolute;
+  box-shadow:none;
+  top:0;
+  pointer-events: none;
+  height: auto;
+  overflow: hidden;
+}
+
+.writemode_comment{
+  pointer-events: none;
+}
+
+.Comment{
+  display: block;
+  border: solid 1px black;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  overflow-y: auto;
+}
+
+.Prediction{
+  display: block;
+  border: solid 1px black;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  background-color: white;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.stickyNav{
+  z-index: 5;
+  position: fixed;
+  top: 0;
+}
+
+.stickySide{
+  position: fixed;
+  top: 64px;
+  right: 0px !important;
+}
+
+.switch_publish{
+    float: right;
+    position: absolute;
+    right: 0;
+    bottom: 8px;
+}
+
+/* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v46/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+.PredictionBox{
+  overflow-y: auto;
+  border: solid 1px #888888;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.Comment_Box{
+  background-color:white;
+  border: solid 1px #888888;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.with_draft{
+  white-space: pre-wrap;
+}
+
+.nav-wrapper{
+  background-color: #9099A2 !important;
+}
+
+.btn{
+  background-color: #6D7993;
+}
