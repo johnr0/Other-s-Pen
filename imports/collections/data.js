@@ -70,7 +70,7 @@ Meteor.methods({
 
     'feedback.updatefeedback': function(textid, feedback, ontextposition, ontext, estimation, original_text){
         var writerId = Arguments.findOne({_id: textid}).userId
-        Feedback.remove({})
+        //Feedback.remove({})
         var users = Meteor.users.find(this.userId).fetch()
         var writers = Meteor.users.find(writerId).fetch()
         Feedback.insert({

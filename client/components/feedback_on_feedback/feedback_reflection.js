@@ -30,6 +30,10 @@ class FeedbackReflection extends Component{
                 <div className='col s4' style={{'position':'relative'}}>
                     <div className="stickSide">
                     <div className="commenting_interface Comment_Box">
+                    <p>Below was your feedback</p>
+                    <p>{this.props.feedback['comment']}</p>
+                    <p>Below is how you estimated other's feedback.</p>
+                    <p>{this.props.feedback['estimation']}</p>
                     <p>Below is the writer's feedback on your feedback.</p>
                     <p>{this.props.feedback['feedback_on_feedback']}</p>
                     <div>Is the feedback what you expected from the writer? Would it have been possible to preemptively be prepared for the issue brought by the feedback? How should you improve yourself from this feedback?</div>
