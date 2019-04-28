@@ -13,3 +13,5 @@ https://www.npmjs.com/get-npm
 
 3. Run meteor.
 ``` meteor ```
+
+Demo video is included in this git repo.
