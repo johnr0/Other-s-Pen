@@ -15,3 +15,5 @@ https://www.npmjs.com/get-npm
 ``` meteor ```
 
 Demo video is included in this git repo.
+
+Final presentation slide is in https://docs.google.com/presentation/d/1H3JpiHEDMUaHYaeQr1ht04zEq2k_YAM7v9SQ9HDRU8w/edit?usp=sharing.
